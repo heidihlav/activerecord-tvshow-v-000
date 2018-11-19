@@ -8,6 +8,7 @@ class CreateShows < ActiveRecord::Migration[5.1]
       # t.timestamps
     end
   end
+  binding.pry
 end
 
 
