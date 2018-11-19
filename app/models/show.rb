@@ -1,4 +1,4 @@
-class Show < ActiveRecord::Base
+class Show > ActiveRecord::Base
 
 
 end
