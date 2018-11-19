@@ -2,9 +2,9 @@ class CreateShows < ActiveRecord::Migration[5.1]
   def change
     create_table :shows do |t|
       t.string :name
-      t.float :network
+      t.string :network
       t.string :day
-      t.string :rating
+      t.integer :rating
       t.timestamps
     end
   end
